@@ -1,0 +1,38 @@
+
+a{
+        text-decoration: none;
+        color:black;
+}
+a:visited{
+  color:gray;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 5px gray solid;
+  padding: 20px;
+  margin:0
+}
+body{
+  margin:0;
+}
+@media (min-width:600px) {
+  div{
+    margin:0;
+  }
+  #article{
+    padding:5px;
+  }
+  #menu{
+    width: 120px;
+    border-right:5px gray solid;
+    margin:0;
+    padding:10px;
+
+  }
+  #grid{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+}
+}
